@@ -1,1 +1,4 @@
-### Django X Clone
+# Django Blog App
+
+##### Walmart Twitter
+
