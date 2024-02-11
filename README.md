@@ -37,5 +37,10 @@ python manage.py runserver
 Frontend consists of HTML made with some bootstrap and django-crispy-forms. Created the base template then expanded it to fit the need of other pages.
 
 ### Backend
-Created a Django API to handle user registration, login, update profile, and post content. Django uses default SQLite as its database. User Authentication is done through Django-contrib-auth
+1. User login and registration is created with Django-contrib-auth, a builtin authentication system made by Django. 
+2. I applied Crispy-Forms to make the UI look better.
+<img src="media/Django_register.jpg" width=50%>
+<img src="media/Django_pic.jpg" width=50%>
+3. Django uses default SQLite as its database. Users can make posts and you can see who made the posts on the main home page with the date and time next to it.
+<img src="media/Django_post.jpg" width=50%>
 
